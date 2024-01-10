@@ -15,6 +15,24 @@ Für diese Aufgabe benötigst du möglicherweise die folgenden Methoden:
 - `map()`: Zum Erstellen eines neuen Arrays durch Anwenden einer Funktion auf jedes Element des vorhandenen Arrays.
 - `forEach()`: Zum Durchlaufen der Elemente eines Arrays und Anwenden einer Funktion auf jedes Element.
 
+# ToDo-Liste
+
+## Hinweis zur Datenspeicherung
+
+Die ToDo-Liste speichert die Aufgaben lokal im `localStorage` des Browsers. Das bedeutet, dass die Daten nur auf dem Gerät des Benutzers gespeichert werden und nicht zwischen verschiedenen Geräten oder Benutzern synchronisiert werden.
+
+### Standort der Daten
+
+Die gespeicherten Daten befinden sich im localStorage des Browsers, und die Speicherung erfolgt direkt im Browser des Benutzers. Daher werden die Daten beibehalten, solange der lokale Browser-Cache nicht gelöscht wird oder der Benutzer die gespeicherten Daten manuell entfernt.
+
+---
+
+## Anleitungen zur Verwendung der ToDo-Liste
+
+...
+
+
+
 ## Umsetzung
 
 1. Erstelle ein neues, leeres Array, um deine To-dos zu speichern.
@@ -22,6 +40,7 @@ Für diese Aufgabe benötigst du möglicherweise die folgenden Methoden:
 3. Nutze `addEventListener`, um auf Benutzeraktionen wie das Hinzufügen, Markieren als erledigt und Löschen zu reagieren.
 4. Aktualisiere die To-do-Liste im DOM, um Änderungen anzuzeigen.
 5. Berücksichtige das Design "Design 2024 - Farhad Amini" für die visuelle Gestaltung.
+
 
 # Bonus
 
@@ -49,3 +68,4 @@ Integriere diese Bonusfunktionen in deine ToDo-Liste und aktualisiere die README
 Viel Erfolg bei der Umsetzung!
 
 **Design 2024 - Farhad Amini**
+
