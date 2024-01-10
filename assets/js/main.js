@@ -52,8 +52,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function deleteTodo(index) {
-        if (todos[index].done || confirm("Bist du sicher? ... zuerst als erledigt markieren, dann löschen!")) {
-            if (!todos[index].done) {
+        if (todos[index].done || confirm("Bist du sicher? ...O.K.  markiere Box als erledigt an, dann löschen!")) {
+            if (!todos[index].done) {a
                 // alert("Du musst zuerst die Aufgabe als erledigt markieren, um sie zu löschen.");
             } else {
                 todos.splice(index, 1);
