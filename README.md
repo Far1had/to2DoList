@@ -23,6 +23,29 @@ Für diese Aufgabe benötigst du möglicherweise die folgenden Methoden:
 4. Aktualisiere die To-do-Liste im DOM, um Änderungen anzuzeigen.
 5. Berücksichtige das Design "Design 2024 - Farhad Amini" für die visuelle Gestaltung.
 
+# Bonus
+
+## Schöneres Design
+
+Für ein ansprechenderes Design könntest du folgende Punkte berücksichtigen:
+
+- Verwende CSS, um das Layout und das Erscheinungsbild der ToDo-Liste zu verbessern.
+- Integriere Icons oder andere visuelle Elemente, um die Bedienung zu erleichtern.
+- Achte auf eine klare und benutzerfreundliche Anordnung der Elemente.
+
+## Überprüfung der Erledigung
+
+Um zu überprüfen, ob ein To-do wirklich erledigt ist, könntest du folgende Schritte unternehmen:
+
+- Implementiere eine Funktion, die den Status eines To-dos überprüft.
+- Nutze `alert()` oder eine andere geeignete Methode, um dem Benutzer eine Meldung mitzuteilen, wenn ein To-do als erledigt markiert ist.
+- Betrachte mögliche Verbesserungen, wie die Verwendung von Modals oder anderen Benachrichtigungsmethoden.
+
+## Umsetzung
+
+Integriere diese Bonusfunktionen in deine ToDo-Liste und aktualisiere die README, um die neuen Funktionen zu dokumentieren. Viel Spaß beim Gestalten und Implementieren!
+
+
 Viel Erfolg bei der Umsetzung!
 
 **Design 2024 - Farhad Amini**
