@@ -52,9 +52,9 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function deleteTodo(index) {
-        if (todos[index].done || confirm("Hast Du deine Aufgabe wirklich erledigt? - Nur erst dann kannst Du deine Eingabe löschen! Klicke bitte auf die CheckMark-Box.")) {
+        if (todos[index].done || confirm("Hast Du deine Aufgabe wirklich erledigt? Du musst zuerst die Aufgabe als erledigt markieren, um sie zu löschen!")) {
             if (!todos[index].done) {
-                alert("Du musst zuerst die Aufgabe als erledigt markieren, um sie zu löschen.");
+                // alert("Du musst zuerst die Aufgabe als erledigt markieren, um sie zu löschen.");
             } else {
                 todos.splice(index, 1);
                 renderTodos();
